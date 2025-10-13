@@ -1,0 +1,173 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" version="28.2.5">
+  <diagram name="Page-1" id="13e1069c-82ec-6db2-03f1-153e76fe0fe0">
+    <mxGraphModel dx="1026" dy="516" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="xBRc_azxMmzetBMspsoA-3" value="" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlActor;size=40;" parent="1" vertex="1">
+          <mxGeometry x="170" y="80" width="20" height="290" as="geometry" />
+        </mxCell>
+        <mxCell id="xBRc_azxMmzetBMspsoA-4" value=":Subscription" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="1" vertex="1">
+          <mxGeometry x="460" y="80" width="80" height="290" as="geometry" />
+        </mxCell>
+        <mxCell id="xBRc_azxMmzetBMspsoA-7" value="" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlBoundary;" parent="1" vertex="1">
+          <mxGeometry x="250" y="81" width="50" height="289" as="geometry" />
+        </mxCell>
+        <mxCell id="xBRc_azxMmzetBMspsoA-10" value="" style="group" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="696" y="81" width="68" height="289" as="geometry" />
+        </mxCell>
+        <mxCell id="xBRc_azxMmzetBMspsoA-9" value="" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlEntity;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" parent="xBRc_azxMmzetBMspsoA-10" vertex="1">
+          <mxGeometry y="6.58957654723127" width="40" height="282.4104234527687" as="geometry" />
+        </mxCell>
+        <mxCell id="xBRc_azxMmzetBMspsoA-8" value="" style="shape=datastore;whiteSpace=wrap;html=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" parent="xBRc_azxMmzetBMspsoA-10" vertex="1">
+          <mxGeometry width="40" height="46.127035830618894" as="geometry" />
+        </mxCell>
+        <mxCell id="xBRc_azxMmzetBMspsoA-20" value="Data base" style="html=1;whiteSpace=wrap;strokeColor=none;" parent="xBRc_azxMmzetBMspsoA-10" vertex="1">
+          <mxGeometry x="-28" y="46.124399999999994" width="96" height="19.266666666666666" as="geometry" />
+        </mxCell>
+        <mxCell id="xBRc_azxMmzetBMspsoA-28" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" parent="xBRc_azxMmzetBMspsoA-10" vertex="1">
+          <mxGeometry x="15" y="90.55333333333334" width="10" height="34.68" as="geometry" />
+        </mxCell>
+        <mxCell id="xBRc_azxMmzetBMspsoA-47" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" parent="xBRc_azxMmzetBMspsoA-10" vertex="1">
+          <mxGeometry x="15" y="217.71333333333334" width="10" height="24.083333333333336" as="geometry" />
+        </mxCell>
+        <mxCell id="xBRc_azxMmzetBMspsoA-11" value="" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlBoundary;" parent="1" vertex="1">
+          <mxGeometry x="360" y="81" width="50" height="289" as="geometry" />
+        </mxCell>
+        <mxCell id="xBRc_azxMmzetBMspsoA-12" value="" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlBoundary;" parent="1" vertex="1">
+          <mxGeometry x="594" y="81" width="50" height="289" as="geometry" />
+        </mxCell>
+        <mxCell id="xBRc_azxMmzetBMspsoA-16" value="User" style="html=1;whiteSpace=wrap;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="151" y="120" width="60" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="xBRc_azxMmzetBMspsoA-17" value="Program UI" style="html=1;whiteSpace=wrap;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="244" y="122" width="65" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="xBRc_azxMmzetBMspsoA-18" value="Subscriptions controler" style="html=1;whiteSpace=wrap;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="358" y="122" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xBRc_azxMmzetBMspsoA-19" value="Subscr. service&lt;div&gt;API&lt;/div&gt;" style="html=1;whiteSpace=wrap;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="574" y="121" width="96" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xBRc_azxMmzetBMspsoA-21" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" parent="1" vertex="1">
+          <mxGeometry x="175" y="160" width="10" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="xBRc_azxMmzetBMspsoA-22" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" parent="1" vertex="1">
+          <mxGeometry x="270" y="160" width="10" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xBRc_azxMmzetBMspsoA-23" value="&lt;span style=&quot;font-size: 8px;&quot;&gt;View subscriptions&lt;/span&gt;" style="html=1;verticalAlign=bottom;endArrow=block;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="185.2849462365591" y="172.77999999999997" as="sourcePoint" />
+            <mxPoint x="270" y="173" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xBRc_azxMmzetBMspsoA-25" value="&lt;span style=&quot;font-size: 8px;&quot;&gt;Get subscriptions&lt;/span&gt;" style="html=1;verticalAlign=bottom;endArrow=block;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;exitX=0.913;exitY=0.223;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="280" y="174" as="sourcePoint" />
+            <mxPoint x="380" y="174" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xBRc_azxMmzetBMspsoA-26" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" parent="1" vertex="1">
+          <mxGeometry x="380" y="170" width="10" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="xBRc_azxMmzetBMspsoA-30" value="&lt;span style=&quot;font-size: 8px;&quot;&gt;Get subscriptions&lt;/span&gt;" style="html=1;verticalAlign=bottom;endArrow=block;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;exitX=0.913;exitY=0.223;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="390" y="180" as="sourcePoint" />
+            <mxPoint x="711" y="180" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xBRc_azxMmzetBMspsoA-31" value="&lt;font style=&quot;font-size: 8px;&quot;&gt;Subscriptions information&lt;/font&gt;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;entryX=1.019;entryY=0.61;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="390.19000000000005" y="205.5" as="targetPoint" />
+            <mxPoint x="710" y="205" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xBRc_azxMmzetBMspsoA-32" value="&lt;font style=&quot;font-size: 8px;&quot;&gt;Subscriptions&lt;/font&gt;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;entryX=0.967;entryY=0.782;entryDx=0;entryDy=0;entryPerimeter=0;exitX=-0.004;exitY=0.727;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="279.6700000000001" y="211.92000000000002" as="targetPoint" />
+            <mxPoint x="379.96000000000004" y="211.35000000000002" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xBRc_azxMmzetBMspsoA-33" value="&lt;font style=&quot;font-size: 8px;&quot;&gt;Subscriptions&lt;/font&gt;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;entryX=0.967;entryY=0.782;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="185" y="213.57" as="targetPoint" />
+            <mxPoint x="270" y="214" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xBRc_azxMmzetBMspsoA-34" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" parent="1" vertex="1">
+          <mxGeometry x="270" y="248" width="10" height="102" as="geometry" />
+        </mxCell>
+        <mxCell id="xBRc_azxMmzetBMspsoA-35" value="&lt;span style=&quot;font-size: 8px;&quot;&gt;Create subscription&lt;/span&gt;" style="html=1;verticalAlign=bottom;endArrow=block;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;entryX=-0.112;entryY=0.057;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" target="xBRc_azxMmzetBMspsoA-34" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="185" y="255" as="sourcePoint" />
+            <mxPoint x="245" y="248" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xBRc_azxMmzetBMspsoA-36" value="&lt;span style=&quot;font-size: 8px;&quot;&gt;Create subscription&lt;/span&gt;" style="html=1;verticalAlign=bottom;endArrow=block;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;entryX=-0.125;entryY=0.117;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" target="xBRc_azxMmzetBMspsoA-37" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="280" y="259" as="sourcePoint" />
+            <mxPoint x="379" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xBRc_azxMmzetBMspsoA-37" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" parent="1" vertex="1">
+          <mxGeometry x="380" y="250" width="10" height="77" as="geometry" />
+        </mxCell>
+        <mxCell id="xBRc_azxMmzetBMspsoA-38" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" parent="1" vertex="1">
+          <mxGeometry x="495" y="257" width="10" height="73" as="geometry" />
+        </mxCell>
+        <mxCell id="xBRc_azxMmzetBMspsoA-39" value="&lt;span style=&quot;font-size: 8px;&quot;&gt;Create subscription&lt;/span&gt;" style="html=1;verticalAlign=bottom;endArrow=block;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="390" y="261" as="sourcePoint" />
+            <mxPoint x="494.88" y="261" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xBRc_azxMmzetBMspsoA-40" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" parent="1" vertex="1">
+          <mxGeometry x="614" y="261" width="10" height="43" as="geometry" />
+        </mxCell>
+        <mxCell id="xBRc_azxMmzetBMspsoA-41" value="" style="endArrow=block;dashed=1;endFill=0;endSize=8;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="505" y="320" as="sourcePoint" />
+            <mxPoint x="710" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xBRc_azxMmzetBMspsoA-43" value="&lt;span style=&quot;font-size: 8px;&quot;&gt;Get information&lt;/span&gt;" style="html=1;verticalAlign=bottom;endArrow=block;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;entryX=-0.162;entryY=0.116;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" target="xBRc_azxMmzetBMspsoA-40" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="506" y="266" as="sourcePoint" />
+            <mxPoint x="611" y="267" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xBRc_azxMmzetBMspsoA-44" value="&lt;span style=&quot;font-size: 8px;&quot;&gt;Information&lt;/span&gt;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;exitX=-0.004;exitY=0.727;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" target="xBRc_azxMmzetBMspsoA-38" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="512.71" y="297.74" as="targetPoint" />
+            <mxPoint x="613" y="297.17" as="sourcePoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xBRc_azxMmzetBMspsoA-48" value="&lt;font style=&quot;font-size: 8px;&quot;&gt;Save&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="616" y="297" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xBRc_azxMmzetBMspsoA-50" value="&lt;span style=&quot;font-size: 8px;&quot;&gt;Created subscription&lt;/span&gt;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;exitX=-0.004;exitY=0.727;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="390" y="312" as="targetPoint" />
+            <mxPoint x="495" y="311.97" as="sourcePoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xBRc_azxMmzetBMspsoA-51" value="&lt;span style=&quot;font-size: 8px;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;Created subscription&lt;/span&gt;&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="280" y="320.03" as="targetPoint" />
+            <mxPoint x="380" y="320" as="sourcePoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xBRc_azxMmzetBMspsoA-52" value="&lt;span style=&quot;font-size: 8px;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;Created subscription&lt;/span&gt;&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;exitX=-0.204;exitY=0.888;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="xBRc_azxMmzetBMspsoA-34" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="185" y="338" as="targetPoint" />
+            <mxPoint x="264.53" y="338.41400000000004" as="sourcePoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
