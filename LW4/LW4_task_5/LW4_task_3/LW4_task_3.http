@@ -1,0 +1,6 @@
+@LW4_task_3_HostAddress = http://localhost:5129
+
+GET {{LW4_task_3_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
