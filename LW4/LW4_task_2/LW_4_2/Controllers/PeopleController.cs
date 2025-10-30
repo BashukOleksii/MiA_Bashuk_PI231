@@ -93,7 +93,7 @@ namespace LW_4_2.Controllers
 
                 if (!TryValidateModel(temp))
                 return BadRequest(ModelState);
-
+                    
                 people.Name = temp.Name;
                 people.Email = temp.Email;
                return NoContent();
