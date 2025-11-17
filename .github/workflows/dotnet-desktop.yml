@@ -19,7 +19,7 @@ jobs:
    
     - name: Restore dependencies
       run: dotnet restore
-      working-directory: LW9/LW_9_task3
+      working-directory: LW9
       
     - name: Build
       run: dotnet build --configuration Release --no-restore
