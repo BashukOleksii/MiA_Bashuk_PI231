@@ -27,7 +27,7 @@ namespace LW4_task_3.Controllers
               _mapper = mapper;
             }
 
-        [Authorize(Roles = $"{nameof(UserRole.Admin)},{nameof(UserRole.Manager)},{nameof(UserRole.User)}")]
+        
         [HttpGet]
             public async Task<ActionResult<IEnumerable<MessageResponse>>> GetAll(
                 [FromQuery]string? ownerId, [FromQuery]string? subId, [FromQuery]string? title)
@@ -45,7 +45,6 @@ namespace LW4_task_3.Controllers
             }
 
 
-        [Authorize(Roles = $"{nameof(UserRole.Admin)},{nameof(UserRole.Manager)},{nameof(UserRole.User)}")]
         [HttpGet("{id}")]
             public async Task<ActionResult<MessageResponse>> GetById(string id)
             {
@@ -66,7 +65,6 @@ namespace LW4_task_3.Controllers
                 }
             }
 
-        [Authorize(Roles = $"{nameof(UserRole.Admin)},{nameof(UserRole.Manager)}")]
         [HttpPost]
             public async Task<IActionResult> Create(MessageRequest item)
             {
@@ -83,7 +81,6 @@ namespace LW4_task_3.Controllers
                 }
             }
        
-        [Authorize(Roles = $"{nameof(UserRole.Admin)},{nameof(UserRole.Manager)}")]
         [HttpPut("{id}")]
             public async Task<IActionResult> Update(string id, MessageRequest item)
             {
@@ -105,7 +102,6 @@ namespace LW4_task_3.Controllers
                 }
             }
 
-        [Authorize(Roles = $"{nameof(UserRole.Admin)},{nameof(UserRole.Manager)}")]
         [HttpPatch("{id}")]
             public async Task<IActionResult> UpdatePart(string id, JsonElement element)
             {
@@ -142,7 +138,6 @@ namespace LW4_task_3.Controllers
 
             }
 
-        [Authorize(Roles = $"{nameof(UserRole.Admin)},{nameof(UserRole.Manager)}")]
         [HttpDelete("{id}")]
             public async Task<IActionResult> Delete(string id)
             {
