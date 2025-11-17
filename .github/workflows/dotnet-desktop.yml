@@ -23,9 +23,11 @@ jobs:
       
     - name: Build
       run: dotnet build --configuration Release --no-restore
-
+      working-directory: LW9/LW9_task3
+      
     - name: Run tests
       run: dotnet test --configuration Release --no-build --verbosity normal
+      working-directory: LW9/LW9_task3
 
     - name: Instal Railway CLI
       run: npm i -g @railway/cli
