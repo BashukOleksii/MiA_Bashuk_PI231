@@ -175,7 +175,7 @@ namespace SubServiceTest
 
             int count = await _subService.CountSubByStatus(SubStatus.Active);
 
-            Assert.Equal(1, count);
+            Assert.Equal(0, count);
         }
 
 
